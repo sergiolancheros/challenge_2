@@ -5,13 +5,12 @@
     justify-content: flex-end;
     padding: 16px;
     gap: 9px;
-    width: 360px;
+    width: fit;
     height: 192px;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    box-sizing: border-box;
 }
 
 .banner_titulo{

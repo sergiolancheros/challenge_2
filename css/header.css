@@ -5,7 +5,7 @@
     align-items: center;
     padding: 16px;
     gap: 16px;
-    width: 360px;
+    width: fit;
     height: 72px;
     flex: none;
     order: 0;
@@ -52,3 +52,9 @@
     order: 2;
     flex-grow: 0;
 }
+
+/* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }*/
