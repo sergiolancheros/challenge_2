@@ -6,44 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/css/login/header.css">
+    <link rel="stylesheet" href="/css/login/cuerpo.css">
+    <link rel="stylesheet" href="/css/login/header.css">
+    <link rel="stylesheet" href="/css/login/footer.css">
 </head>
 <body>
     <header class="cabecera">
         <img src="/images/Logo.png" alt="Logo Alura" class="logo">
         <img src="/images/Vector.png" alt="Buscar" class="buscar">
     </header>
-
-    <main class="cuerpo">
-        <div class="datos">
+    <div class="datos">
         <h4 class="inicio-sesion">Iniciar Sesión</h4>
         <input type="text" name="" id="" class="correo">
         <input type="text" name="" id="" class="password">
         <a href="/productos.html">Entrar</a>
-        </div>
+     </div>
 
-        <div class="información">
-            <img src="/images/Logo.png" alt="Logo" class="logo">
-            <nav class="menu">
-                <ul class="navegacion">
-                    <p class="categoria">Quienes somos</p>
-                    <p class="categoria">Política de privacidad</p>
-                    <p class="categoria">Programa de fidelidad</p>
-                    <p class="categoria">Nuestras tiendas</p>
-                    <p class="categoria">Quiero ser franquiciado</p>
-                    <p class="categoria">Anúncie aquí</p>
-                </ul>
-            </nav>
-            <p>Hable con nosotros</p>
-            <input type="text" name="Nombre" id="nombre">
-            <input type="text" name="Mensaje" id="mensaje">
-            <input type="submit" value="Enviar mensaje">
-        </div>
-    </main>
-
+    <div class="información">
+        <section class="informacion_container">
+            <div class="informacion_nosotros">
+                <img src="/images/Logo.png" alt="Logo" class="logo_informacion">
+                    <nav class="menu">
+                        <ul class="navegacion">
+                            <p class="categoria">Quienes somos</p>
+                            <p class="categoria">Política de privacidad</p>
+                            <p class="categoria">Programa de fidelidad</p>
+                            <p class="categoria">Nuestras tiendas</p>
+                            <p class="categoria">Quiero ser franquiciado</p>
+                            <p class="categoria">Anúncie aquí</p>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="contacto">
+                <p class="hable_nosotros">Hable con nosotros</p>
+                <div class="textos">
+                    <input type="text" name="Nombre" id="nombre" class="nombre">
+                     <input type="text" name="Mensaje" id="mensaje" class="mensaje">
+                </div>
+                <a href="#" class="boton" id="boton">Enviar mensaje</a>
+             </div>
+        </section>
+    </div>
     <footer class="rodapie">
-        <p class="mensaje">Desarrollado por Fulana de Tal</p>
-        <p class="mensaje">2021</p>
+        <div class="mensaje_completo">
+            <p class="mensaje_footer">Desarrollado por Fulana de Tal<br>
+            2021</p>
+        </div>
     </footer>
-
 </body>
 </html>
