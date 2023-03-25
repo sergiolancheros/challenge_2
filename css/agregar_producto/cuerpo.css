@@ -1,0 +1,71 @@
+.nuevo_producto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 16px;
+    height: 511px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    background: #F5F5F5;
+}
+
+.agregar_producto{
+    width: 258px;
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nueva_urlimg, .nueva_categoría, .nuevo_nombre, .nuevo_precio, .nueva_descripción{
+    width: 352px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton_agregar_producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 328px;
+    height: 51px;
+    background: #2A7AE4;
+    flex: none;
+    order: 6;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.boton_agregar_producto{
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}

@@ -5,47 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/css/agregar_producto/header.css">
+    <link rel="stylesheet" href="/css/agregar_producto/footer.css">
+    <link rel="stylesheet" href="/css/agregar_producto/cuerpo.css">
 </head>
 <body>
     <header class="cabecera">
         <img src="/images/Logo.png" alt="Logo Alura" class="logo">
-        <a href="" class="administrador">Menú Administrador</a>
+        <a href="" class="administrador" id="administrador">Menú Administrador</a>
         <img src="/images/Vector.png" alt="Buscar" class="buscar">
     </header>
 
-    <main class="cuerpo">
-        <div class="nuevo_producto">
-            <input type="url" name="Url de la imagen" id="urlimg">
-            <input type="text" name="Categoría" id="categoría">
-            <input type="text" name="Nombre del producto" id="nombre">
-            <input type="text" name="Precio del producto" id="precio">
-            <input type="text" name="Descripción del producto" id="descripción">
-            <a href="#" class="agregar_producto">Agregar Producto</a>
-        </div>
+    <section class="nuevo_producto">
+        <h2 class="agregar_producto">Agregar nuevo producto</h2>
+        <input type="url" name="Url de la imagen" class="nueva_urlimg">
+        <input type="text" name="Categoría" class="nueva_categoría">
+        <input type="text" name="Nombre del producto" class="nuevo_nombre">
+        <input type="text" name="Precio del producto" class="nuevo_precio">
+        <input type="text" name="Descripción del producto" class="nueva_descripción">
+        <a href="#" class="boton_agregar_producto" id="boton_agregar_producto">Agregar Producto</a>
+    </section>
 
-        <div class="información">
-            <img src="/images/Logo.png" alt="Logo" class="logo">
-            <nav class="menu">
-                <ul class="navegacion">
-                    <p class="categoria">Quienes somos</p>
-                    <p class="categoria">Política de privacidad</p>
-                    <p class="categoria">Programa de fidelidad</p>
-                    <p class="categoria">Nuestras tiendas</p>
-                    <p class="categoria">Quiero ser franquiciado</p>
-                    <p class="categoria">Anúncie aquí</p>
-                </ul>
-            </nav>
-            <p>Hable con nosotros</p>
-            <input type="text" name="Nombre" id="nombre">
-            <input type="text" name="Mensaje" id="mensaje">
-            <input type="submit" value="Enviar mensaje">
-        </div>
-    </main>
-
+    <div class="información">
+        <section class="informacion_container">
+            <div class="informacion_nosotros">
+                <img src="/images/Logo.png" alt="Logo" class="logo_informacion">
+                    <nav class="menu">
+                        <ul class="navegacion">
+                            <p class="categoria">Quienes somos</p>
+                            <p class="categoria">Política de privacidad</p>
+                            <p class="categoria">Programa de fidelidad</p>
+                            <p class="categoria">Nuestras tiendas</p>
+                            <p class="categoria">Quiero ser franquiciado</p>
+                            <p class="categoria">Anúncie aquí</p>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="contacto">
+                <p class="hable_nosotros">Hable con nosotros</p>
+                <div class="textos">
+                    <div class="nombre_container">
+                        <textarea name="nombre" class="nombre" id="nombre" cols="30" rows="2" placeholder=""></textarea>
+                        <p class="nombre-textos">Nombre</p>
+                    </div>
+                    <input type="text" name="Mensaje" id="mensaje" class="mensaje" placeholder="Escribe tu mensaje">
+                </div>
+                <a href="#" class="boton" id="boton">Enviar mensaje</a>
+            </div>
+        </section>
+    </div>
+            
     <footer class="rodapie">
-        <p class="mensaje">Desarrollado por Fulana de Tal</p>
-        <p class="mensaje">2021</p>
+        <div class="mensaje_completo">
+            <p class="mensaje_footer">Desarrollado por Fulana de Tal<br>
+                2021</p>
+        </div>
     </footer>
     
 </body>

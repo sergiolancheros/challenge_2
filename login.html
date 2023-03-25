@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/login/header.css">
     <link rel="stylesheet" href="/css/login/cuerpo.css">
     <link rel="stylesheet" href="/css/login/header.css">
@@ -43,8 +44,11 @@
             <div class="contacto">
                 <p class="hable_nosotros">Hable con nosotros</p>
                 <div class="textos">
-                    <input type="text" name="Nombre" id="nombre" class="nombre">
-                     <input type="text" name="Mensaje" id="mensaje" class="mensaje">
+                    <div class="nombre_container">
+                        <textarea name="nombre" class="nombre" id="nombre" cols="30" rows="2" placeholder=""></textarea>
+                        <p class="nombre-textos">Nombre</p>
+                    </div>
+                    <input type="text" name="Mensaje" id="mensaje" class="mensaje" placeholder="Escribe tu mensaje">
                 </div>
                 <a href="#" class="boton" id="boton">Enviar mensaje</a>
              </div>
