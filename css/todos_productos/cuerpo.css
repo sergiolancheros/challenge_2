@@ -9,6 +9,7 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+    box-sizing: border-box;
 }
 
 .titulo{
@@ -73,7 +74,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 10px 70px;
     flex-grow: 0;
 }
 

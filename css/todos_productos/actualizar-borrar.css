@@ -6,10 +6,8 @@
 .editar_borrar{
     display: flex;
     position: absolute;
-    padding: 10px 80px;
-    gap: 18px;
-    
-    
+    padding: 10px 0 0 80px;
+    gap: 18px;  
 }
 
 .producto{
