@@ -66,3 +66,28 @@
     font-size: 14px;
     line-height: 16px;
 }
+
+@media screen and (min-width:768px) {
+    .banner{
+        padding: 25px;
+        gap: 16px;
+        width: 768px;
+        height: 352px;
+    }
+
+    .banner_titulo{
+        width: 704px;
+        height: 61px;
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .productos_seleccionados{
+        width: 704px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+}

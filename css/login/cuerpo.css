@@ -80,4 +80,28 @@
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-  }
+  }*/
+
+@media screen and (min-width:768px) {
+    .datos{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 16px;
+        height: 400px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        box-sizing: border-box;
+    }
+
+    .datos_container{
+        position: absolute;
+        width: 275px;
+        height: 189px;
+        left: 246px;
+        top: 80px;
+        gap: 20px;
+    }
+}
