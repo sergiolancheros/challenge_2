@@ -69,3 +69,32 @@
     flex-grow: 0;
     text-decoration: none;
 }
+
+@media screen and (min-width:768px) {
+    .nuevo_producto{
+        padding: 32px 32px 20px 32px;
+        height: 543px;
+        box-sizing: border-box;
+    }
+
+    .agregar_producto{
+        width: 704px;
+    }
+
+    .nueva_urlimg, .nueva_categoría, .nuevo_nombre, .nuevo_precio, .nueva_descripción{
+        width: 704px;
+    }
+
+    .nueva_descripción{
+        height: 82px;
+    }
+
+    .boton_agregar_producto{
+        width: 675px;
+
+    }
+
+
+
+
+}

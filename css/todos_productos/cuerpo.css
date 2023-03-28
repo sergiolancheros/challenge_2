@@ -146,3 +146,24 @@
     flex-grow: 0;
 }
 
+@media screen and (min-width:768px) {
+    .container_productos{
+        width: 768px;
+    }
+    
+    .titulo{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 314px;
+    }
+
+    .main_productos{
+        gap: 20px 105px;
+    }
+
+    .producto_principal{
+        width: 164px;
+    }
+
+}

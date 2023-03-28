@@ -49,6 +49,41 @@
     flex-grow: 0;
 }
 
+.caja_busqueda{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .cabecera{
+        padding: 16px 32px;
+    }
+
+    #administrador{
+        order: 2;
+    }
+
+    .caja_busqueda{
+        display: initial;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 64px;
+        width: 235px;
+        height: 40px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .busqueda{
+        display: none;
+    }
+    
+}
+
 /* {
     background: #000 !important;
     color: #0f0 !important;

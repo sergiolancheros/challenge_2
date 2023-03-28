@@ -259,3 +259,59 @@
     order: 0;
     flex-grow: 0;
 }
+
+@media screen and (min-width:768px) {
+    .información{
+        flex-direction: row;
+        padding: 32px;
+        gap: 115px;
+        height: 364px;
+    }
+
+    .informacion_container{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+        width: 704px;
+        height: 300px;
+        flex-grow: 1;
+    }
+
+    .informacion_nosotros{
+        align-items: flex-start;
+        width: 254px;
+        height: 300px;
+    }
+
+    .navegacion{
+        align-items: flex-start;
+        gap: 24px;
+        height: 234px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .contacto{
+        gap: 19px;
+        width: 434px;
+        height: 229px;
+        flex-grow: 1;
+    }
+
+    .rodapie{
+        width: 768px;
+        height: 102px;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+        top: 862px;
+    }
+
+    .mensaje_completo{
+        width: 240px;
+        height: 38px;
+        
+    }
+}
