@@ -10,6 +10,7 @@
     align-self: stretch;
     flex-grow: 0;
     box-sizing: border-box;
+    background: #F5F5F5;
 }
 
 .titulo{
@@ -164,6 +165,43 @@
 
     .producto_principal{
         width: 164px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .container_productos{
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 80px;
+    }
+    
+    .titulo{
+        justify-content: space-between;
+        gap: 410px;
+    }
+
+    .titulo_productos{
+        width: 314px;
+        height: 38px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    #boton_productos{
+        width: 140px;
+        height: 19px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .main_productos{
+        gap: 40px 0px;
+    }
+
+    .producto_principal{
+        width: 150px;
     }
 
 }

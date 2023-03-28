@@ -76,12 +76,6 @@
     text-decoration: none;
 }
 
-/* {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  }*/
-
 @media screen and (min-width:768px) {
     .datos{
         flex-direction: column;
@@ -103,5 +97,44 @@
         left: 246px;
         top: 80px;
         gap: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .datos{
+        width: 100%;
+    }
+
+    .datos_container{
+        position: absolute;
+        width: 423px;
+        height: 291px;
+        left: 300px;
+    }
+
+    .inicio-sesion{
+        width: 131px;
+        height: 29px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .correo{
+        width: 423px;
+        height: 50px;
+    }
+
+    .password{
+        width: 423px;
+        height: 50px;
+    }
+
+    .boton_login{
+        width: 392px;
+    }
+
+    #boton_login{
+        font-size: 18px;
+        line-height: 21px;
     }
 }

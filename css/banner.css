@@ -91,3 +91,34 @@
     }
 
 }
+
+@media screen and (min-width:1024px) {
+    .banner{
+        width: 100%;
+        padding: 32px;
+        gap: 16px;
+    }
+
+    .banner_titulo{
+        position: relative;
+        width: 751px;
+        left: 110px;
+    }
+
+    .productos_seleccionados{
+        position: relative;
+        width: 751px;
+        left: 110px;
+    }
+
+    .ver_consolas{
+        position: relative;
+        left: 110px;
+        padding: 16px;
+        width: 129px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+}

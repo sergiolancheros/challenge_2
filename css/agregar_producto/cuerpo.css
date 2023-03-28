@@ -93,8 +93,28 @@
         width: 675px;
 
     }
+}
 
+@media screen and (min-width:1024px) {
+    .nuevo_producto{
+        height: 600px;
+    }
 
+    .agregar_producto{
+        width: 375px;
+        height: 38px;
+        font-size: 32px;
+        line-height: 38px;
+    }
 
+    .nueva_urlimg, .nueva_categoría, .nuevo_nombre, .nuevo_precio, .nueva_descripción{
+        width: 559px;
+    }
 
+    .boton_agregar_producto{
+        width: 531px;
+        height: 51px;
+        
+    }
+    
 }

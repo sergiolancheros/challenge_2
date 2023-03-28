@@ -22,7 +22,6 @@
     
     .cabecera{
         padding: 16px 32px;
-        width: 768px;
         height: 72px;
         justify-content: flex-start;
         gap: 30px;
@@ -46,6 +45,18 @@
 
     .busqueda{
         display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cabecera{
+        padding-left: 64px;
+        box-sizing: border-box;
+    }
+
+    .caja_busqueda{
+        width: 393px;
+        gap: 235px;
     }
 }
 

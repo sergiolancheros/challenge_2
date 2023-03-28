@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.container{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -25,6 +25,20 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+}
+
+.container_extra{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    height: 249px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    display: none;
 }
 
 .titulos{
@@ -192,4 +206,39 @@
         height: 19px;
         line-height: 19px;
     }
+
+    .container_extra{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .titulos{
+        height: 38px;
+        padding: 34px 0 0 142px;
+        justify-content: flex-start;
+        gap: 540px;
+    }
+
+    .linea{
+        width: 148px;
+        height: 38px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .container_producto{
+        padding-left: 142px;
+        gap: 50px;
+    }
+    
+    .container{
+        gap: 28px;
+    }
+
+    .producto_principal{
+        width: 176px;
+        flex-grow: 0;
+    }
+
 }

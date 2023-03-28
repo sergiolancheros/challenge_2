@@ -84,6 +84,23 @@
     
 }
 
+@media screen and (min-width:1024px) {
+    .cabecera{
+        box-sizing: border-box;
+        padding-left: 64px;
+
+    }
+
+    .logo{
+        width: 176px;
+        height: 50px;
+    }
+
+    .caja_busqueda{
+        width: 393px;
+        gap: 235px;
+    }
+}
 /* {
     background: #000 !important;
     color: #0f0 !important;
