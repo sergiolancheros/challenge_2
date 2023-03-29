@@ -21,11 +21,19 @@
 
     <section class="nuevo_producto">
         <h2 class="agregar_producto">Agregar nuevo producto</h2>
-        <input type="url" name="Url de la imagen" class="nueva_urlimg">
-        <input type="text" name="Categoría" class="nueva_categoría">
-        <input type="text" name="Nombre del producto" class="nuevo_nombre">
-        <input type="text" name="Precio del producto" class="nuevo_precio">
-        <input type="text" name="Descripción del producto" class="nueva_descripción">
+        <div class="url_container">
+            <input type="url" name="Url de la imagen" class="nueva_urlimg" placeholder="URL de imagen">
+        </div>
+        <div class="categoria_container">
+            <input type="text" name="Categoría" class="nueva_categoría" placeholder="Categoría">
+        </div>
+        <div class="nombre_container">
+            <input type="text" name="Nombre del producto" class="nuevo_nombre" placeholder="Nombre del producto">
+        </div>
+        <div class="precio_container">
+            <input type="text" name="Precio del producto" class="nuevo_precio" placeholder="Precio del producto">
+        </div>
+        <input type="text" name="Descripción del producto" class="nueva_descripción" placeholder="Descripción del producto">
         <a href="#" class="boton_agregar_producto" id="boton_agregar_producto">Agregar Producto</a>
     </section>
 
@@ -51,7 +59,7 @@
                         <textarea name="nombre" class="nombre" id="nombre" cols="30" rows="2" placeholder=""></textarea>
                         <p class="nombre-textos">Nombre</p>
                     </div>
-                    <input type="text" name="Mensaje" id="mensaje" class="mensaje" placeholder="Escribe tu mensaje">
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="2" class="mensaje" placeholder="Escribe tu mensaje"></textarea>
                 </div>
                 <a href="#" class="boton" id="boton">Enviar mensaje</a>
             </div>

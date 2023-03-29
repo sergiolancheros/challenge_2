@@ -38,6 +38,9 @@
     height: 41px;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-bottom: 5px;
 }
 
 .password{
@@ -47,6 +50,8 @@
     height: 41px;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    padding-left: 8px;
 }
 
 .boton_login{
@@ -74,6 +79,44 @@
     order: 0;
     flex-grow: 0;
     text-decoration: none;
+}
+
+.correo::placeholder{
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    width: 250px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.password::placeholder{
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    width: 250px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
 }
 
 @media screen and (min-width:768px) {
