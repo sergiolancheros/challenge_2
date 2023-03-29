@@ -365,3 +365,24 @@
         top: 817px;
     }
 }
+
+@media screen and (min-width:1440px) {
+    .información{
+        padding: 64px 64px 64px 136px;
+    }
+
+    .informacion_container{
+        gap: 403px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .informacion_nosotros{
+        gap: 208px;
+    }
+
+    .categoria{
+        text-align: left;
+    }
+    
+}

@@ -101,6 +101,13 @@
         gap: 235px;
     }
 }
+
+@media screen and (min-width:1440px) {
+    .cabecera{
+        padding-left: 136px;
+    }
+    
+}
 /* {
     background: #000 !important;
     color: #0f0 !important;

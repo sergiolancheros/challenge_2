@@ -205,3 +205,13 @@
     }
 
 }
+
+@media screen and (min-width:1440px) {
+    .titulo{
+        gap: 803px;
+    }
+    
+    .main_productos{
+        gap: 40px 50px;
+    }
+}

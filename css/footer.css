@@ -313,6 +313,10 @@
         height: 38px;
         
     }
+
+    .categoria{
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -342,6 +346,7 @@
 
     .categoria{
         width: 200px;
+        text-align: left;
     }
 
     .contacto{
@@ -357,4 +362,25 @@
     .mensaje{
         width: 390px;
     }
+}
+
+@media screen and (min-width:1440px){
+    .información{
+        padding: 64px 64px 64px 136px;
+    }
+
+    .informacion_container{
+        gap: 403px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .informacion_nosotros{
+        gap: 208px;
+    }
+
+    .categoria{
+        text-align: left;
+    }
+    
 }
